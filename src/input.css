@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.calculation-box {
+    box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
+}
+
+#billamount, #peopleno{
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
+.active{
+    background-color: #26C2AE;
+    color: #00474B;
+}
+
+input{
+    font-size: 24px;
+}
