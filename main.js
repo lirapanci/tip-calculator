@@ -91,8 +91,8 @@ function calculateTip (billAmount, tipPercentage, nrPeople) {
     const tipAmountPerson = tipPercentage / 100 * billAmount / nrPeople;
     const totalAmountPerson = billAmount / nrPeople + tipAmountPerson;
     const calculationValues = {
-        tip: Math.round(tipAmountPerson),
-        total: Math.round(totalAmountPerson)
+        tip: Math.round(tipAmountPerson * 100)/100,
+        total: Math.round(totalAmountPerson * 100)/100
     };
     return calculationValues;
 }
