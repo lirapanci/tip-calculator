@@ -528,11 +528,6 @@ video {
   margin: auto;
 }
 
-.mx-0 {
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
 .my-3\.5 {
   margin-top: 0.875rem;
   margin-bottom: 0.875rem;
@@ -543,9 +538,9 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.my-60 {
-  margin-top: 15rem;
-  margin-bottom: 15rem;
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .ml-4 {
@@ -558,10 +553,6 @@ video {
 
 .mr-3 {
   margin-right: 0.75rem;
-}
-
-.mb-60 {
-  margin-bottom: 15rem;
 }
 
 .flex {
@@ -580,12 +571,20 @@ video {
   height: 100vh;
 }
 
+.max-h-\[481px\] {
+  max-height: 481px;
+}
+
 .w-full {
   width: 100%;
 }
 
 .min-w-0 {
   min-width: 0px;
+}
+
+.max-w-\[920px\] {
+  max-width: 920px;
 }
 
 .grid-cols-3 {
@@ -698,24 +697,19 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.px-1\.5 {
-  padding-left: 0.375rem;
-  padding-right: 0.375rem;
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.py-60 {
-  padding-top: 15rem;
-  padding-bottom: 15rem;
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pr-4 {
@@ -742,24 +736,24 @@ video {
   font-family: Space Mono, monospace;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-bold {
@@ -812,18 +806,9 @@ video {
   box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
 }
 
-#billamount, #peopleno{
-  font-size: 1.5rem;
-  line-height: 2.25rem;
-}
-
 .active{
   background-color: #26C2AE;
   color: #00474B;
-}
-
-input{
-  font-size: 24px;
 }
 
 .hover\:bg-green-mint:hover {
@@ -836,19 +821,7 @@ input{
   color: rgb(0 71 75 / var(--tw-text-opacity));
 }
 
-@media (min-width: 768px) {
-  .md\:mx-12 {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
-}
-
 @media (min-width: 1024px) {
-  .lg\:mx-64 {
-    margin-left: 16rem;
-    margin-right: 16rem;
-  }
-
   .lg\:grid {
     display: grid;
   }
@@ -862,9 +835,3 @@ input{
   }
 }
 
-@media (min-width: 1280px) {
-  .xl\:mx-64 {
-    margin-left: 16rem;
-    margin-right: 16rem;
-  }
-}
