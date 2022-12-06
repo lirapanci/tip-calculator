@@ -20,6 +20,7 @@ addEventListener('DOMContentLoaded', (event) => {
             tipButtons[i].addEventListener("click", (event) => {
                 clearClass();
                 event.target.classList.add("active");
+                document.getElementById("custom-tip").value = "";
                 calculate()
             })
         }
